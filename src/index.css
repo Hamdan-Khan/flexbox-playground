@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+input:focus {
+  outline: none;
+}
+select {
+  border: 1px solid rgb(155, 155, 155);
+  padding: 7px 10px !important;
+  border-radius: 7px;
+  cursor: pointer;
+}
+option {
+  padding: 2rem;
+}
+select:focus {
+  outline: none;
+}
+
+.container-flex {
+  overflow: scroll;
+  scrollbar-width: thin; /* for Firefox */
+  scrollbar-color: #999 transparent; /* for Firefox */
+}
+
+/* Hide scrollbar styles in webkit-based browsers */
+.container-flex::-webkit-scrollbar {
+  display: none;
+}
+
+/* Style the scrollbar when it appears */
+.container-flex::-webkit-scrollbar:horizontal {
+  height: 10px; /* adjust as needed */
+  background-color: black;
+}
+
+.container-flex::-webkit-scrollbar:vertical {
+  width: 10px; /* adjust as needed */
+  background-color: black;
+}
+
+.container-flex::-webkit-scrollbar-thumb {
+  background-color: #999;
+  border-radius: 10px;
+}
+
+.container-flex::-webkit-scrollbar-thumb:hover {
+  background-color: #777;
+}
+
+.flex-container-section::-webkit-scrollbar {
+  width: 16px;
+}
+
+.flex-container-section::-webkit-scrollbar-track {
+  background-color: #e4e4e4;
+  border-radius: 100px;
+}
+
+.flex-container-section::-webkit-scrollbar-thumb {
+  background-color: #45413c;
+  border-radius: 100px;
+  border: 5 solid transparent;
+  background-clip: content-box;
+  box-sizing: border-box;
+}
