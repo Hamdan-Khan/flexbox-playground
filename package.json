@@ -2,6 +2,7 @@
   "name": "playground",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://hamdan-k.me/flexbox-playground",
   "type": "module",
   "scripts": {
     "dev": "vite",
