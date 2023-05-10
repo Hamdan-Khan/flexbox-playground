@@ -8,7 +8,7 @@ const InputBar = () => {
   return (
     <div className="w-[30%] z-20">
       <div className="py-2">
-        <h2 className="text-xl font-semibold text-center">
+        <h2 className="text-xl font-semibold underline text-center">
           Flex Styling Options
         </h2>
         {/* <a
