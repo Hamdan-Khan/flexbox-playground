@@ -17,7 +17,7 @@ const PlayGround = () => {
         <h1 className="text-3xl font-bold">FLEXBOX PLAYGROUND</h1>
         <div className="flex items-center gap-2">
           <a
-            href="https://hamdan-k.me"
+            href="https://hamdan-khan.github.io"
             className="border-2 border-zinc-600 rounded-[50%] px-1 pt-1 overflow-hidden"
             title="My Website"
           >
